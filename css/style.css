@@ -4,7 +4,7 @@ body {
     margin-top: 86px;
 
   }
-  
+  /*NAVBAR STYLE*/
   .navbar {
     -webkit-box-shadow: 2px 2px 5px #17a2b8;
             box-shadow: 2px 2px 5px #17a2b8;
@@ -39,7 +39,9 @@ body {
     background-size: cover;
     min-height: 400px;
   }
-  
+  #showcase h1{
+      padding-top: 50px;
+  }
   #showcase .primary-overlay {
     background: rgba(50, 146, 156, 0.9);
     min-height: 400px;
@@ -55,6 +57,29 @@ body {
       height: 330px;
 
   }
+  /* ABOUT STYLE */
+  .subscribe {
+    height: 20px;
+  background: #252525;
+}
+
+.substyle{
+   background-color: rgb(178, 187, 192,0.5);
+   padding: 10px;
+  
+  }
+  #about img{
+    border-radius: 50%;
+    padding-top: 20px;
+  
+ 
+  }
+  .abstyle{
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-bottom: 20px;
+  }
+  /* CONTACT STYLE */
   .contact{
       background: rgb(247, 246, 245);
       padding: 30px;
@@ -64,14 +89,7 @@ body {
     font-size: 25px;
   }
   
-  .subscribe {
-      height: 20px;
-    background: #252525;
-  }
-  .substyle{
-      height: 300px;
-      background:white;
-  }
+
   #authors img {
     margin-top: -50px;
   }
