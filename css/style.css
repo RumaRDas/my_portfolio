@@ -17,11 +17,13 @@ a:hover {
   color: rgb(46, 43, 43);
 }
   /*NAVBAR STYLE*/
+ 
   .navbar {
     -webkit-box-shadow: 2px 2px 5px #17a2b8;
             box-shadow: 2px 2px 5px #17a2b8;
     background: #fff;
     opacity: 0.9;
+    
   }
   
   .navbar .nav-item {
@@ -69,20 +71,85 @@ a:hover {
       padding-right: 3px;
       border: 1px solid white;
   }
+  #blackStyle{
+    position: relative;
+    text-align: center;
+    padding: 25px;
+  margin-bottom: -10px;
+    margin-top: -30px;
+   
+  }
+  #blackStyle:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: rgb(46, 43, 43);
+   transform: skew(0deg, 4deg);
+   border: 20px solid transparent;
+   opacity: 0.5px;
+  }
+  #blackStyle:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+   background: rgb(46, 43, 43);
+    transform: skew(0deg, -4deg);
+    border: 20px solid transparent;
+   
+  }
+/* CSS STYLE*/
 
+#navbarhead{
+  position: relative;
+  text-align: center;
+  padding: 25px;
+
+  margin-top: 50px;
+ 
+}
+#navbarhead:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: rgb(178, 187, 192);
+ transform: skew(0deg, 4deg);
+ border: 40px solid transparent;
+ opacity: 0.5px;
+}
+#navbarhead:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+ background: rgb(178, 187, 192);
+  transform: skew(0deg, -4deg);
+  border: 40px solid transparent;
+ 
+}
   /* Home style*/
   #home {
     position: relative;
     background: url("../images/back-1.jpg") no-repeat center top;
     background-size: cover;
-    min-height: 400px;
+    min-height: 470px;
   }
   #home h1{
       padding-top: 50px;
   }
   #home .primary-overlay {
     background: rgba(50, 146, 156, 0.9);
-    min-height: 400px;
+    min-height: 470px;
     position: absolute;
     top: 0;
     left: 0;
@@ -96,9 +163,13 @@ a:hover {
 
   }
   /* ABOUT STYLE */
+  #about{
+    background-color: rgb(178, 187, 192);
+  }
   .subscribe {
-    height: 20px;
+    height: 30px;
   background: #252525;
+  position: relative;
 }
 
 .substyle{
@@ -117,10 +188,13 @@ a:hover {
       padding-bottom: 20px;
   }
   /* CONTACT STYLE */
-  .contact{
-      background: rgb(247, 246, 245);
+  #contact{
+      background: rgb(178, 187, 192);
       padding: 30px;
       
+  }
+  .contact{
+
   }
  .icon{
      font-size: 25px;
