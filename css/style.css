@@ -54,7 +54,7 @@ a:hover {
 }
 
   .boxes{
-      background: rgb(150, 146, 146, 0.6);
+      background: white;
       padding: 30px;
   }
  .box{
@@ -103,6 +103,11 @@ a:hover {
     border: 20px solid transparent;
    
   }
+  /* Skills*/
+  .text4{
+    font-size: 20px;
+    font-weight: 500;
+  }
 /* CSS STYLE*/
 
 #navbarhead{
@@ -120,7 +125,7 @@ a:hover {
   left: 0;
   height: 100%;
   width: 50%;
-  background: rgb(178, 187, 192);
+  background: white;
  transform: skew(0deg, 4deg);
  border: 40px solid transparent;
  opacity: 0.5px;
@@ -132,7 +137,7 @@ a:hover {
   right: 0;
   height: 100%;
   width: 50%;
- background: rgb(178, 187, 192);
+ background: white;
   transform: skew(0deg, -4deg);
   border: 40px solid transparent;
  
@@ -164,7 +169,7 @@ a:hover {
   }
   /* ABOUT STYLE */
   #about{
-    background-color: rgb(178, 187, 192);
+    background-color: white;
   }
   .subscribe {
     height: 30px;
@@ -173,12 +178,12 @@ a:hover {
 }
 
 .substyle{
-   background-color: rgb(178, 187, 192,0.5);
+   background-color: white;
    padding: 10px;
   
   }
   #about img{
-    border-radius: 50%;
+    border-radius: 40%;
     padding-top: 20px;
   
   }
@@ -193,9 +198,7 @@ a:hover {
       padding: 30px;
       
   }
-  .contact{
-
-  }
+ 
  .icon{
      font-size: 25px;
      padding-left: 20px;
