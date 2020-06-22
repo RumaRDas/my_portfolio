@@ -195,8 +195,11 @@ a:hover {
   /* CONTACT STYLE */
   #contact{
       background: rgb(178, 187, 192);
-      padding: 30px;
-      
+      padding: 30px;   
+  }
+  .imgSize{
+    width:27px ;
+    margin-left: 10px;
   }
  
  .icon{
